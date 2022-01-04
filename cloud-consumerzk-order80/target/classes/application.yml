@@ -1,0 +1,10 @@
+server:
+  port: 80
+
+#服务别名  -----  注册zookeeper到注册中心的名字
+spring:
+  application:
+    name: cloud-consumerzk-order80
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
